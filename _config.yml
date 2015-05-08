@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Beefeaters
+subtitle: el clan copado
 description:
 author: John Doe
 language:
@@ -62,9 +62,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: casper
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: ftpsync
+  host: http://beefeaters.tk
+  user: beefeaters
+  pass: <password>
+  verbose: true
