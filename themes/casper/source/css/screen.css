@@ -373,8 +373,8 @@ margin on the iframe, cause it breaks stuff. */
     margin-bottom: 5rem;
     text-align: center;
     color: #fff;
-    background: #303538 no-repeat center center;
-    background-size: cover;
+    background: #fff no-repeat center center;
+  /*  background-size: cover; */
 }
 
 .blog-logo {
