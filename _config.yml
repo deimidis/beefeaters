@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://beefeaters.tk
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -68,7 +68,6 @@ theme: casper
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: ftpsync
-  host: http://beefeaters.tk
-  user: beefeaters
-  pass: <password>
+  host: beefeaters.tk
+  remote: public_html
   verbose: true
